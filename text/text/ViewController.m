@@ -25,8 +25,8 @@
     [button setTitle:@"按钮" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
-    
-    
+
+
     UILabel *label = [[UILabel alloc] init];
     label.frame = CGRectMake(0, 0, 100, 100);
     label.text = @"";
@@ -34,12 +34,13 @@
     label.textAlignment = NSTextAlignmentCenter;
     label.font = [UIFont systemFontOfSize:16];
     [self.view addSubview:label];
-    
-    
+
+
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.frame = CGRectMake(0, 0, 100, 100);
     [imageView setImage:[UIImage imageNamed:@""]];
     [self.view addSubview:imageView];
+    // 哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈
 }
 
 - (void)didReceiveMemoryWarning {
